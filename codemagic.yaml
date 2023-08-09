@@ -9,7 +9,7 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.pig.commo
+        bundle_identifier: com.pig.common
       vars:
         BUNDLE_ID: com.pig.common
         XCODE_WORKSPACE: "SwiftUIAllTerms.xcodeproj" # <-- Put the name of your Xcode workspace here
