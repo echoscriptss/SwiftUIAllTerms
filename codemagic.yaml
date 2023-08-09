@@ -15,7 +15,6 @@ workflows:
       ios_signing:
         - Codemagic
       vars:
-        <<: *automatic_ios_signing
         FLAVOR: ad_hoc
         BUNDLE_ID: com.pig.common
       # vars: # Define your environment variables here
