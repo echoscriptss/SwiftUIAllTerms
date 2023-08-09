@@ -4,8 +4,6 @@ workflows:
     name: iOS Native
     max_build_duration: 120
     instance_type: mac_mini_m1
-    integrations:
-      app_store_connect: appstore_credentials
     environment:
       ios_signing:
         distribution_type: ad_hoc
